@@ -1,0 +1,112 @@
+body {
+	background: lightgrey;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+section {
+	background: white;
+	margin: 20px;	
+}
+
+
+
+h1{
+	font-size: 45px;
+	font-family: 'Lobster', cursive;
+}
+
+.section1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	height: 700px;
+
+}
+
+.section1 input {
+	background-color: #EAEAE9;
+	width: 110px;
+	padding: 6px;
+	margin-bottom: 20px;
+	transition: 0.5s;
+	border-radius: 4px;
+	border-color: #181D14;
+	border-width: 1px;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.section1 input:focus {
+	background-color: #030302;
+	color: white;
+}
+
+.connexion p {
+	margin-top: 25px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	color: white;
+}
+
+.connexion a{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	color: #2FC6F1;
+}
+
+.section2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	height: 700px;
+}
+
+.section3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	height: 700px;
+}
+
+.header {
+	width: 100%;
+	height: 15%;
+	background: #1A1F16; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header p {
+	font-family: 'Patua One', cursive;
+	font-size: 45px;
+	color: white;
+}
+
+
+.connexion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+	padding: 40px;
+	background: #434740;
+	border-radius: 6px;
+}
+
+.connexion button {
+	border-radius: 10px;
+	border: 1px;
+	padding: 4px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
