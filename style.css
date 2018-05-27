@@ -17,8 +17,17 @@ section {
 
 
 h1{
+	display: flex;
+	justify-content: center;
 	font-size: 45px;
 	font-family: 'Lobster', cursive;
+	width: 30%;
+	margin: 0px;
+}
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #EEEEEE;
 }
 
 .section1 {
@@ -62,9 +71,6 @@ h1{
 }
 
 .section2 {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	width: 80%;
 	height: 700px;
 }
@@ -101,6 +107,7 @@ h1{
 	padding: 40px;
 	background: #434740;
 	border-radius: 6px;
+	margin-top: 100px;
 }
 
 .connexion button {
@@ -109,4 +116,78 @@ h1{
 	padding: 4px;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
+}
+
+
+.haut {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bas {
+	display: flex;
+	justify-content: space-between;
+	height: 80%;
+	width: 100%;
+}
+
+
+.gauche {
+	width: 25%;
+}
+
+.centre {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.droite {
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #434740;
+}
+.description {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.descr-bas {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.droite p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	color: #EEEEEE;
+	padding: 10px;
+}
+
+.droite button {
+	width: 70%;
+	border: 0px;
+	padding: 7px;
+	background: #434740;
+	color: #EEEEEE;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+
+.droite button:hover {
+	background: #6A6A6A;
+}
+
+.tof-utilisateur {
+	margin-top: 5px;
 }
